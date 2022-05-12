@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/index.js"></script>
+    <script src="js/immobile.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <h3>Cadastro do imovel</h3>
+    <form onsubmit="app.addProperty()">
+        <p>
+            <label for="">Tipo: </label>
+            <select name="kind">
+                <option value="Apartamento">Apartamento</option>
+                <option value="Casa">Casa</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Area: </label>
+            <input type="number" name="area"  step="any" min="0">
+        </p>
+        <p>
+            <input type="checkbox" name="rented">Alugado
+        </p>
+        <button type="submit">Salvar</button>
+        <button type="button" onclick="app.cleanForm()">Limpar</button>
+    </form>
+    <ul id="properties"></ul>
+</body>
+</html>

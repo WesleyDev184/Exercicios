@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nicolau</title>
+</head>
+
+<body>
+    <h3>Cadastro da liga dos astronaltas</h3>
+    <form action="">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"> -
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="datan">Data De Nascimento:</label>
+            <input type="date" name=datan"" id="datan"> -
+            <label for="foto">Foto: </label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <br>
+        <div>
+            <label for="Nacionalidade">Nacionalidade: </label>
+            <input list="Nacionalidade"> -
+            <datalist id="Nacionalidade">
+                <option value="Russo">
+                <option value="Americano">
+                <option value="Brasileiro">
+            </datalist>
+            <span>Genero</span>
+            <label for="html">F</label>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="css">M</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+        </div>
+        <br>
+        <div>
+            <span>Suas Principais Qualidades: </span><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">Inteligencia |</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Resistencia |</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Preparo Fisico |</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Educaçao |</label>
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="description" rows="10" cols="30"
+                placeholder="porque Gostaria de ser um astronalta?"></textarea>
+        </div>
+        <br>
+        <input type="button" value="criar">
+
+    </form>
+</body>
+
+</html>

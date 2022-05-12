@@ -1,0 +1,19 @@
+body {
+color: white;
+background-color: rgb(31, 31, 51);
+}
+
+.yellow-text {
+    color: rgba(255, 255, 0, 0.76);
+}
+
+.yellow-background {
+    background-color: rgba(204, 204, 32, 0.863);
+    color: rgba(0, 0, 0, 0.842);
+    border: 3px solid;
+    border-color: black;
+}
+
+#astronomy-class {
+    color: rgba(255, 0, 0, 0.589);
+}
